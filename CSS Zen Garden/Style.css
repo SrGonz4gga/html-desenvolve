@@ -68,3 +68,22 @@ footer>a{
 }
 
 abbr {font-variant: 'small-caps';}
+.page-wrapper {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.explanation {
+    width: 60%;
+    margin-right: 35%;
+    border-right: 1px solid #1f295c;
+    padding-right: 2%;
+}
+
+.sidebar {
+    position: absolute;
+    top: 560px; /* Após a parte de introdução */
+    left: 62%; /* Após o elemento .explanation */
+    padding: 0 2%;
+}
