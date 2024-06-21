@@ -83,7 +83,7 @@ abbr {font-variant: 'small-caps';}
 
 .sidebar {
     position: absolute;
-    top: 560px; /* Após a parte de introdução */
-    left: 62%; /* Após o elemento .explanation */
+    top: 560px; 
+    left: 62%; 
     padding: 0 2%;
 }
