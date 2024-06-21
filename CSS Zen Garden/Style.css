@@ -87,3 +87,52 @@ abbr {font-variant: 'small-caps';}
     left: 62%; 
     padding: 0 2%;
 }
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid;
+}
+
+.benefits-flex {
+    display: flex;
+    align-items: center;
+}
+
+.benefits h3 {
+    flex: 30%;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.benefits p {
+    flex: 70%;
+}
+
+.participation-flex {
+    display: flex;
+}
+
+.participation-flex h3 {
+    flex: 1;
+    align-self: center;
+}
+
+.participation-flex p {
+    flex: 1;
+}
+
+.benefits,
+.participation {
+    border-top: 1px solid #1f295c;
+    border-bottom: 1px solid #1f295c;
+    padding: 20px 0;
+}
