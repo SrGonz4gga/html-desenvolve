@@ -136,3 +136,33 @@ abbr {font-variant: 'small-caps';}
     border-bottom: 1px solid #1f295c;
     padding: 20px 0;
 }
+
+
+a {
+    color: #2d6073; 
+    font-weight: bold; 
+}
+
+a:visited {
+    color: #1f192f;
+    font-weight: normal;
+}
+
+a:hover {
+    color: #65b8a6;
+}
+
+.intro p:first-child::first-letter {
+    font-size: 30px; 
+    font-family: serif; 
+    float: left; 
+    margin-right: 5px; 
+}
+
+.design-selection nav ul li {
+    border-top: 1px solid #1f295c; 
+}
+
+.design-selection nav ul li:last-child {
+    border-bottom: 1px solid #1f295c;
+}
